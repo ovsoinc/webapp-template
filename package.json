@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"prepare": "browserify -t vueify -e src/index.js | babel-minify --mangle false > public/bundle.js",
-	"dev": "watchify -t vueify -e src/index.js -o public/bundle.js"
+    "prepare": "browserify -t vueify -e src/index.js | babel-minify --mangle false > public/bundle.js",
+    "dev": "watchify -t vueify -e src/index.js -o public/bundle.js"
   },
   "repository": {
     "type": "git",
